@@ -10,9 +10,7 @@
 
     <body>
       <div class="page-header">
-        {% if user.is_authenticated %}
-            <a href="{% url 'post_new' %}" class = "glyphicon-plus"></span></a>
-        {% endif %}
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
         <h1><a href="/">真鍋の練習日誌</a></h1>
       </div>
 
